@@ -190,7 +190,7 @@ public class KakaoCallback extends HttpServlet {
     }
     /** ========================================= */
 
-    //DTO
+    //DTo
     private static class KakaoUser {
         String id;
         String nickname;
