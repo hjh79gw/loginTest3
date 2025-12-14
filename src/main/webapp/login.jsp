@@ -32,7 +32,7 @@
 <script>
     function kakaoLogin() {
 
-        const REST_API_KEY = '078237a6064b88ebe9d80d24f54e5054';
+        const REST_API_KEY = 'REST_API_KEY';
         const REDIRECT_URI = 'http://localhost:8089<%= request.getContextPath() %>/kakaoCallback';
 
         const kakaoAuthUrl =
